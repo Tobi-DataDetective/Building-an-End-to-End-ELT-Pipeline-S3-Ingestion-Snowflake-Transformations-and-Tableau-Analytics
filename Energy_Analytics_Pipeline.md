@@ -104,6 +104,8 @@ s3://awssnowflakestableau/energy_data.csv
 
 ## Step 3 — Create IAM Policy
 
+![Image](./IAM_permission.png)
+
 Create a policy granting Snowflake permission to read from the bucket.
 
 Required actions:
@@ -163,7 +165,7 @@ STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::xxxxxxxx:role/awssnowflakestableaurole'
 STORAGE_ALLOWED_LOCATIONS = ('s3://awssnowflakestableau/');
 ```
 
----
+## ![Image2](./snowflakes_img.png)
 
 ## Step 6 — Retrieve Trust Values
 
@@ -365,6 +367,8 @@ Connection established.
 
 ## Step 15 — Build Dashboard
 
+![Image3](./tableau_img.png)
+
 Example visualizations:
 
 - KWH by Country
@@ -388,7 +392,7 @@ Combine sheets into an executive dashboard.
 
 ## 🏆 Outcome
 
-You have built a secure, cloud-native analytics system featuring:
+Built a secure, cloud-native analytics system featuring:
 
 ✔ Cross-platform authentication  
 ✔ Automated ingestion  
